@@ -1,0 +1,13 @@
+/home/pashok/Documents/Univer/OOP/C# Homeworks/Homework3/Task3/bin/Debug/netcoreapp3.1/Task3
+/home/pashok/Documents/Univer/OOP/C# Homeworks/Homework3/Task3/bin/Debug/netcoreapp3.1/Task3.deps.json
+/home/pashok/Documents/Univer/OOP/C# Homeworks/Homework3/Task3/bin/Debug/netcoreapp3.1/Task3.runtimeconfig.json
+/home/pashok/Documents/Univer/OOP/C# Homeworks/Homework3/Task3/bin/Debug/netcoreapp3.1/Task3.runtimeconfig.dev.json
+/home/pashok/Documents/Univer/OOP/C# Homeworks/Homework3/Task3/bin/Debug/netcoreapp3.1/Task3.dll
+/home/pashok/Documents/Univer/OOP/C# Homeworks/Homework3/Task3/bin/Debug/netcoreapp3.1/Task3.pdb
+/home/pashok/Documents/Univer/OOP/C# Homeworks/Homework3/Task3/obj/Debug/netcoreapp3.1/Task3.csprojAssemblyReference.cache
+/home/pashok/Documents/Univer/OOP/C# Homeworks/Homework3/Task3/obj/Debug/netcoreapp3.1/Task3.AssemblyInfoInputs.cache
+/home/pashok/Documents/Univer/OOP/C# Homeworks/Homework3/Task3/obj/Debug/netcoreapp3.1/Task3.AssemblyInfo.cs
+/home/pashok/Documents/Univer/OOP/C# Homeworks/Homework3/Task3/obj/Debug/netcoreapp3.1/Task3.csproj.CoreCompileInputs.cache
+/home/pashok/Documents/Univer/OOP/C# Homeworks/Homework3/Task3/obj/Debug/netcoreapp3.1/Task3.dll
+/home/pashok/Documents/Univer/OOP/C# Homeworks/Homework3/Task3/obj/Debug/netcoreapp3.1/Task3.pdb
+/home/pashok/Documents/Univer/OOP/C# Homeworks/Homework3/Task3/obj/Debug/netcoreapp3.1/Task3.genruntimeconfig.cache
