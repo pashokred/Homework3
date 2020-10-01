@@ -5,37 +5,28 @@
     <projectFile>Task3/Task3.csproj</projectFile>
     <projectFile>CheckTests/CheckTests.csproj</projectFile>
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="54216691-df03-4273-9c29-e9b81b1f019f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Homework3/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Homework3/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Homework3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Homework3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CheckTests/CheckTests.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CheckTests/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CheckTests/bin/Debug/netcoreapp3.1/CheckTests" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CheckTests/bin/Debug/netcoreapp3.1/CheckTests.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CheckTests/bin/Debug/netcoreapp3.1/CheckTests.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CheckTests/bin/Debug/netcoreapp3.1/CheckTests.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CheckTests/bin/Debug/netcoreapp3.1/CheckTests.runtimeconfig.dev.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CheckTests/bin/Debug/netcoreapp3.1/CheckTests.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CheckTests/obj/CheckTests.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CheckTests/obj/CheckTests.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CheckTests/obj/CheckTests.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CheckTests/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CheckTests/obj/Debug/netcoreapp3.1/CheckTests" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CheckTests/obj/Debug/netcoreapp3.1/CheckTests.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CheckTests/obj/Debug/netcoreapp3.1/CheckTests.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CheckTests/obj/Debug/netcoreapp3.1/CheckTests.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CheckTests/obj/Debug/netcoreapp3.1/CheckTests.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CheckTests/obj/Debug/netcoreapp3.1/CheckTests.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CheckTests/obj/Debug/netcoreapp3.1/CheckTests.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CheckTests/obj/Debug/netcoreapp3.1/CheckTests.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CheckTests/obj/Debug/netcoreapp3.1/CheckTests.genruntimeconfig.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CheckTests/obj/Debug/netcoreapp3.1/CheckTests.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CheckTests/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CheckTests/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CheckTests/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CheckTests/obj/rider.project.restore.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task3/obj/Debug/netcoreapp3.1/Task3.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task3/obj/Debug/netcoreapp3.1/Task3.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task2/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +66,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.Task2">
+  <component name="RunManager" selected=".NET Project.Task3">
     <configuration name="CheckTests" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -140,7 +131,8 @@
       <option name="presentableId" value="Default" />
       <updated>1601281068954</updated>
       <workItem from="1601281073756" duration="25890000" />
-      <workItem from="1601373094926" duration="2071000" />
+      <workItem from="1601373094926" duration="3701000" />
+      <workItem from="1601546196306" duration="3156000" />
     </task>
     <servers />
   </component>
@@ -159,6 +151,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
@@ -172,22 +165,22 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="675" y="241" width="631" height="632" key="Github.UntrackedFilesDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1601324570333" />
-    <state width="1802" height="246" key="GridCell.Tab.0.bottom" timestamp="1601374738141">
+    <state width="1802" height="246" key="GridCell.Tab.0.bottom" timestamp="1601386600252">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="246" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1601374738141" />
-    <state width="1802" height="246" key="GridCell.Tab.0.center" timestamp="1601374738140">
+    <state width="1802" height="246" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1601386600252" />
+    <state width="1802" height="246" key="GridCell.Tab.0.center" timestamp="1601386600251">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="246" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1601374738140" />
-    <state width="1802" height="246" key="GridCell.Tab.0.left" timestamp="1601374738140">
+    <state width="1802" height="246" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1601386600251" />
+    <state width="1802" height="246" key="GridCell.Tab.0.left" timestamp="1601386600251">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="246" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1601374738140" />
-    <state width="1802" height="246" key="GridCell.Tab.0.right" timestamp="1601374738141">
+    <state width="1802" height="246" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1601386600251" />
+    <state width="1802" height="246" key="GridCell.Tab.0.right" timestamp="1601386600252">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="246" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1601374738141" />
+    <state width="1802" height="246" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1601386600252" />
     <state width="1802" height="367" key="GridCell.Tab.1.bottom" timestamp="1601325526771">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
@@ -256,6 +249,14 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="803" y="177" width="800" height="537" key="Rider.ProjectTemplateDialog.Size/72.27.1848.1053@72.27.1848.1053" timestamp="1601321134012" />
+    <state x="140" y="172" width="1648" height="853" key="VCS.FileHistoryDialog" timestamp="1601550838524">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="140" y="172" width="1648" height="853" key="VCS.FileHistoryDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1601550838524" />
+    <state x="777" y="468" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601375859055">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="777" y="468" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/72.27.1848.1053@72.27.1848.1053" timestamp="1601375859055" />
     <state x="1121" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1601323563575">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
