@@ -134,44 +134,59 @@ namespace Task2
             }
         }
 
+        static void PrintAllStudents(List<Student> students)
+        {
+            Console.WriteLine("There are list of students in this group:");
+            foreach (Student student in students)
+            {
+                Console.WriteLine("{0}", student.Name);
+            }
+        }
+
         static Group FindGroup(List<Group> groups, string groupName)
         {
             return groups.Find(x => x.GroupName == groupName);
         }
         
-        static 
-        
+
         static void Main()
         {
             List<Group> groups = new List<Group>();
             string help = "List of commands:\n" +
-                          "Study - you can use this if exist student" +
                           "AddGroup - you can add group, firstly you can only call this\n" +
                           "AddStudent - adds student to group that you insert\n" +
+                          "Study - you can use this if exist student\n" +
                           "GetInfo - gives you short info about group\n" +
                           "GetFullInfo - gives you full info about group\n" +
                           "End - if you want finish" +
                           "Help - gives you list of available commands\n";
 
-            Console.WriteLine(help);
-            
             while (true)
             {
+                Console.WriteLine(help);
                 Console.WriteLine("Enter what action you want:");
                 string command = Console.ReadLine();
 
                 if (command == "Study")
                 {
+                    if (groups.Count == 0)
+                    {
+                        Console.Clear();
+                        Console.WriteLine("There are no groups yet. Create group and student to make student studying\n");
+                        continue;
+                    }
+                    
                     PrintAllGroups(groups);
                     Console.WriteLine("In what group you want to find student to study?");
                     
                     string groupName = Console.ReadLine();
-                    int counter = 0;
-                    
+
                     if (groups.Exists(x => x.GroupName == groupName))
                     {
-                        Console.WriteLine("Great choice!\n" +
-                                          "What is the student name?");
+                        Console.WriteLine("Great choice!\n");
+                        PrintAllStudents(FindGroup(groups, groupName).GetStudents());
+                        Console.WriteLine("What is the student name?");
+                        
                         string studentName = Console.ReadLine();
 
                         if (FindGroup(groups, groupName).GetStudents().Exists(s => s.Name == studentName))
@@ -182,8 +197,6 @@ namespace Task2
                         {
                             Console.WriteLine("Student {0} doesn't exist in group {1}", studentName, groupName);
                         }
-
-                        counter++;
                     }
                     else
                     {
@@ -203,13 +216,20 @@ namespace Task2
                 {
                     Console.WriteLine("Enter group name:");
                     string groupName = Console.ReadLine();
+                    
+                    if(groups.Exists(x => x.GroupName == groupName))
+                    {
+                        Console.WriteLine("The group {0} already exist", groupName);
+                        continue;
+                    }
                     groups.Add(new Group(groupName));
                 }
                 else if (command == "AddStudent")
                 {
                     if (groups.Count == 0)
                     {
-                        Console.WriteLine("There are no groups yet. Try later");
+                        Console.Clear();
+                        Console.WriteLine("There are no groups yet. Create group to add student\n");
                         continue;
                     }
                     
@@ -223,6 +243,12 @@ namespace Task2
                         Console.WriteLine("Great choice!\n" +
                                           "What is the student name?");
                         string studentName = Console.ReadLine();
+                        
+                        if(FindGroup(groups, groupName).GetStudents().Exists(s => s.Name == studentName))
+                        {
+                            Console.WriteLine("The student {0} already exist", studentName);
+                            continue;
+                        }
 
                         Console.WriteLine("'bad' or 'good' student is? (enter bad or good)");
 
@@ -252,7 +278,8 @@ namespace Task2
                 {
                     if (groups.Count == 0)
                     {
-                        Console.WriteLine("There are no groups yet. Try later");
+                        Console.Clear();
+                        Console.WriteLine("There are no groups yet. Create groups to get info\n");
                         continue;
                     }
 
@@ -270,7 +297,8 @@ namespace Task2
                 {
                     if (groups.Count == 0)
                     {
-                        Console.WriteLine("There are no groups yet. Try later");
+                        Console.Clear();
+                        Console.WriteLine("There are no groups yet. Create groups to get full info\n");
                         continue;
                     }
 

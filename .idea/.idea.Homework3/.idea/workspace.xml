@@ -24,9 +24,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54216691-df03-4273-9c29-e9b81b1f019f" name="Default Changelist" comment="">
+    <list default="true" id="54216691-df03-4273-9c29-e9b81b1f019f" name="Default Changelist" comment="In Task 2:&#10;Created functions PrintAllGroups and FindGroup and replace code zones with this functions&#10;Added else conditions to some if statements">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Homework3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Homework3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task2/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task2/bin/Debug/netcoreapp3.1/Task2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task2/bin/Debug/netcoreapp3.1/Task2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task2/bin/Debug/netcoreapp3.1/Task2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task2/bin/Debug/netcoreapp3.1/Task2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task2/obj/Debug/netcoreapp3.1/Task2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task2/obj/Debug/netcoreapp3.1/Task2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task2/obj/Debug/netcoreapp3.1/Task2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task2/obj/Debug/netcoreapp3.1/Task2.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +44,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/45212CA3-153F-478C-B9B1-60517BBB01B3/17/Buffer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/45212CA3-153F-478C-B9B1-60517BBB01B3/34/String.Comparison.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/45212CA3-153F-478C-B9B1-60517BBB01B3/C4/SpanHelpers.Byte.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/pashok/Documents/Univer/OOP/C# Homeworks/Homework3/Task2/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/45212CA3-153F-478C-B9B1-60517BBB01B3/3B1/Unsafe.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/45212CA3-153F-478C-B9B1-60517BBB01B3/88/IntPtr.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/45212CA3-153F-478C-B9B1-60517BBB01B3/35/String.Manipulation.cs" root0="SKIP_HIGHLIGHTING" />
@@ -64,9 +69,10 @@
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.29983062" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.Task3">
+  <component name="RunManager" selected=".NET Project.Task2">
     <configuration name="CheckTests" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -132,8 +138,16 @@
       <updated>1601281068954</updated>
       <workItem from="1601281073756" duration="25890000" />
       <workItem from="1601373094926" duration="3701000" />
-      <workItem from="1601546196306" duration="3156000" />
+      <workItem from="1601546196306" duration="7938000" />
     </task>
+    <task id="LOCAL-00001" summary="In Task 2:&#10;Created functions PrintAllGroups and FindGroup and replace code zones with this functions&#10;Added else conditions to some if statements">
+      <created>1601550970827</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601550970827</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +169,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="In Task 2:&#10;Created functions PrintAllGroups and FindGroup and replace code zones with this functions&#10;Added else conditions to some if statements" />
+    <option name="LAST_COMMIT_MESSAGE" value="In Task 2:&#10;Created functions PrintAllGroups and FindGroup and replace code zones with this functions&#10;Added else conditions to some if statements" />
   </component>
   <component name="WindowStateProjectService">
     <state x="842" y="453" width="307" height="207" key="Github.ShareDialog" timestamp="1601324560587">
@@ -165,22 +181,22 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="675" y="241" width="631" height="632" key="Github.UntrackedFilesDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1601324570333" />
-    <state width="1802" height="246" key="GridCell.Tab.0.bottom" timestamp="1601386600252">
+    <state width="1802" height="268" key="GridCell.Tab.0.bottom" timestamp="1601627338264">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="246" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1601386600252" />
-    <state width="1802" height="246" key="GridCell.Tab.0.center" timestamp="1601386600251">
+    <state width="1802" height="268" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1601627338264" />
+    <state width="1802" height="268" key="GridCell.Tab.0.center" timestamp="1601627338263">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="246" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1601386600251" />
-    <state width="1802" height="246" key="GridCell.Tab.0.left" timestamp="1601386600251">
+    <state width="1802" height="268" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1601627338263" />
+    <state width="1802" height="268" key="GridCell.Tab.0.left" timestamp="1601627338263">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="246" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1601386600251" />
-    <state width="1802" height="246" key="GridCell.Tab.0.right" timestamp="1601386600252">
+    <state width="1802" height="268" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1601627338263" />
+    <state width="1802" height="268" key="GridCell.Tab.0.right" timestamp="1601627338263">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="246" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1601386600252" />
+    <state width="1802" height="268" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1601627338263" />
     <state width="1802" height="367" key="GridCell.Tab.1.bottom" timestamp="1601325526771">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
@@ -249,10 +265,18 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="803" y="177" width="800" height="537" key="Rider.ProjectTemplateDialog.Size/72.27.1848.1053@72.27.1848.1053" timestamp="1601321134012" />
+    <state x="485" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1601623507462">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="485" y="188" width="1022" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1601623507462" />
     <state x="140" y="172" width="1648" height="853" key="VCS.FileHistoryDialog" timestamp="1601550838524">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="140" y="172" width="1648" height="853" key="VCS.FileHistoryDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1601550838524" />
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601550985374">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1601550985374" />
     <state x="777" y="468" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601375859055">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
