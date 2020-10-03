@@ -20,7 +20,8 @@ namespace Task3
             {
                 return uah / CurrencyCourse;
             }
-            public double CurrencyCourse { protected set; get; }
+
+            private double CurrencyCourse { get; }
         }
         enum Exchange
         {
@@ -29,8 +30,20 @@ namespace Task3
             UAHtoEUR,
             UAHtoUSD,
         }
-        
-        static void Main(string[] args)
+
+
+        private static int ParseInt(string value)
+        {
+            return int.TryParse(value, out int parsedInt) ? parsedInt : 0;
+        }
+
+        private static double ParseDouble(string value)
+        {
+            return double.TryParse(value, out double parsedDouble) ? parsedDouble : 0;
+        }
+
+
+        static void Main()
         {
             Console.WriteLine("Please, write double values with dot, like: 28.5  but not: 28,5");
             Console.WriteLine("Enter number that define operation you want to do:\n" +
@@ -38,21 +51,12 @@ namespace Task3
                               "1: EUR - UAH\n" +
                               "2: UAH - EUR\n" +
                               "3: UAH - USD");
-
-            try
-            {
-
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e);
-                throw;
-            }
-            var operation = (Exchange) int.Parse(Console.ReadLine());
+            
+            var operation = (Exchange) ParseInt(Console.ReadLine());
             Console.WriteLine("Enter value of your currency regards to hryvna");
-            Converter converter = new Converter(double.Parse(Console.ReadLine()));
+            Converter converter = new Converter(ParseDouble(Console.ReadLine()));
             Console.WriteLine("Enter amount of currency you want to convert");
-            double amount = Double.Parse(Console.ReadLine());
+            double amount = ParseDouble(Console.ReadLine());
 
 
             try
