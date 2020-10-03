@@ -30,16 +30,25 @@ namespace Task3
             UAHtoEUR,
             UAHtoUSD,
         }
-
-
+        
         private static int ParseInt(string value)
         {
-            return int.TryParse(value, out int parsedInt) ? parsedInt : 0;
+            if (!int.TryParse(value, out int parsedInt) || int.Parse(value) >3 || int.Parse(value) < 0)
+            {
+                throw new ArgumentException("Invalid operation number", value);
+            }
+
+            return parsedInt;
         }
 
         private static double ParseDouble(string value)
         {
-            return double.TryParse(value, out double parsedDouble) ? parsedDouble : 0;
+            if (!double.TryParse(value, out double parsedDouble))
+            {
+                throw new ArgumentException("Invalid currency value", value);
+            }
+            
+            return parsedDouble;
         }
 
 
@@ -51,16 +60,17 @@ namespace Task3
                               "1: EUR - UAH\n" +
                               "2: UAH - EUR\n" +
                               "3: UAH - USD");
-            
-            var operation = (Exchange) ParseInt(Console.ReadLine());
-            Console.WriteLine("Enter value of your currency regards to hryvna");
-            Converter converter = new Converter(ParseDouble(Console.ReadLine()));
-            Console.WriteLine("Enter amount of currency you want to convert");
-            double amount = ParseDouble(Console.ReadLine());
-
 
             try
             {
+                var operation = (Exchange) ParseInt(Console.ReadLine());
+                Console.WriteLine("Enter value of your currency regards to hryvna");
+                
+                Converter converter = new Converter(ParseDouble(Console.ReadLine()));
+                Console.WriteLine("Enter amount of currency you want to convert");
+                
+                double amount = ParseDouble(Console.ReadLine());
+                
                 switch (operation)
                 {
                     case Exchange.USDtoUAH:
@@ -84,9 +94,14 @@ namespace Task3
                         break;
                 }
             }
+            catch (ArgumentException e)
+            {
+                Console.WriteLine("{0}: {1}", e.GetType().Name, e.Message);
+                throw;
+            }
             catch (DivideByZeroException e)
             {
-                Console.WriteLine("Division of {0} by zero. Exception said: {1}", amount, e);
+                Console.WriteLine("{0}: {1}", e.GetType().Name, e.Message);
                 throw;
             }
         }
